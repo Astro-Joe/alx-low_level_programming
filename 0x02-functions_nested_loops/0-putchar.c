@@ -1,13 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - A script that print _putchar
  *
  * Return: Always 0
  */
-int main()
+int main(void)
 {
-printf("_putchar\n");
+	char sh = "_putchar"
+	while (sh)
+	{
+		_putchar(sh);
+		sh++;
+	}
 
-return (0);
+	_putchar('\n');
+	return (0);
 }
