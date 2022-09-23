@@ -1,18 +1,21 @@
 #include "main.h"
+
 /**
- * main - A script that print _putchar
+ * main - Entr point
  *
- * Return: Always 0
+ * Description: A program that prints _putchar followed by a new line
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char sh = "_putchar"
-	while (sh)
-	{
-		_putchar(sh);
-		sh++;
-	}
+	char text[8] = "_putchar";
+	int i = 0;
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
